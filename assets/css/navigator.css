@@ -1,0 +1,27 @@
+.navigator {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navigator .s-nav__button {
+    position: relative;
+    color: white;
+    border: 1px solid white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navigator ul li:nth-child(2) {
+    margin: 60px 0;
+}
