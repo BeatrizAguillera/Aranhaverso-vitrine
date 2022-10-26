@@ -1,6 +1,5 @@
 .gallery {
-    padding: 5px;
-    padding-left: 0;
+    margin: 2rem 0;
 }
 
 .gallery ul {
@@ -8,15 +7,11 @@
     flex-direction: row;
 }
 
-.gallery ul li {
-    margin-left: 25px;
-}
-
-.gallery ul li:first-child {
-    margin-left: 0;
+.gallery ul li:nth-child(2) {
+    margin: 0 25px;
 }
 
 .gallery ul li a img {
-    border: solid 6px white;
+    border: solid 4px white;
     border-radius: 15px;
 }

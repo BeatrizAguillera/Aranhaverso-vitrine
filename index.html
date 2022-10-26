@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="assets/scripts/index.js"></script>
     <link rel="stylesheet" href="assets/css/home-page-styles.css">
+    <script
+      src="https://kit.fontawesome.com/a8785eb8f3.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Miranhas | Multiverso</title>
 </head>
@@ -47,7 +51,7 @@
 
             <div class="s-controller">
 
-                <!-- <div> <img class="s-controller__icon" src="/Miranhas/assets/images/icons/spiderman1.png" alt="Aranha"></div> -->
+                <div class="s-controller_buttons_carousel">
 
                 <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button s-controller__button--active">
                 01
@@ -58,11 +62,15 @@
                 <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">
                     03
                 </div>
+            </div>
+
+            <div class="test">
+                <div class="s-spider_button" id="arrow_back"><i class="fa-solid fa-spider fa-xl"></i></div>
 
                 <div class="s-controller__line"></div>
 
-                <!-- <div> <img class="s-controller__icon" src="/Miranhas/assets/images/icons/spiderman1.png" alt="Aranha"></div> -->
-
+                <div class="s-spider_button" id="arrow_forward"><i class="fa-solid fa-spider fa-xl"></i></div>
+                </div>
             </div>
     </main>
 </body>

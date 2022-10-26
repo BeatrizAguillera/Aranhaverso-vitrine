@@ -1,3 +1,7 @@
+.pills {
+    margin-bottom: 20px;
+}
+
 .pills ul {
     display: flex;
     flex-direction: row;
