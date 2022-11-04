@@ -1,3 +1,28 @@
+const carouselItems = document.getElementsByClassName('s-controller__button');
+let buttonsIndex = 0;
+
+
+function carouselForward() {
+    if (buttonsIndex == 2) {
+        buttonsIndex = 0;
+    } else {
+        buttonsIndex++;
+    }
+    const nextItem = carouselItems[buttonsIndex];
+    selectCarouselItem(nextItem);
+}
+
+function carouselBack() {
+    if (buttonsIndex == 0) {
+        buttonsIndex = 2;
+    } else {
+        buttonsIndex--;
+    }
+    const backItem = carouselItems[buttonsIndex];
+    selectCarouselItem(backItem);
+}
+
+
 function handleMouseEnter() {
     this.classList.add('s-card--hovered');
     document.body.id = `${this.id}-hovered`;
@@ -30,6 +55,10 @@ function selectCarouselItem(selectedButtonElement) {
 
     carousel.style.transform = newTransform;
 
+    changeActiveButton(selectedButtonElement);
+}
+
+function changeActiveButton(selectedButtonElement) {
     const activeButtonElement = document.querySelector('.s-controller__button--active');
     activeButtonElement.classList.remove('s-controller__button--active');
     selectedButtonElement.classList.add('s-controller__button--active');
