@@ -1,3 +1,31 @@
+.s-wrapper .s-left-column {
+    width: 4rem;
+    padding: 3rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.s-nav__line {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    z-index: 0;
+}
+
+.s-nav__icon {
+    position: absolute;
+    top: -20px;
+    z-index: 1;
+}
+
 .navigator {
     height: 80vh;
     width: 100%;
@@ -24,4 +52,38 @@
 
 .navigator ul li:nth-child(2) {
     margin: 60px 0;
+}
+
+.s-nav__button:hover,
+.s-nav__button.active {
+    background-color: white;
+    color: var(--primary-color);
+    transform: scale(1.1);
+    border: 1px solid var(--primary-color);
+    outline: 3px solid white;
+}
+
+@media (max-width: 600px) {
+    .s-wrapper .s-left-column {
+    /* width: 2rem; */
+    padding: 1.8rem;
+}
+
+.navigator .s-nav__button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+}
+
+@media (max-width: 450px) {
+    .s-wrapper .s-left-column {
+    width: 1rem;
+}
+
+.navigator .s-nav__button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
 }

@@ -1,17 +1,37 @@
-.gallery {
-    margin: 2rem 0;
-}
-
 .gallery ul {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.gallery ul li:nth-child(2) {
-    margin: 0 25px;
+.gallery ul li {
+    margin: 5px 15px;
+    margin-left: 0;
 }
 
 .gallery ul li a img {
     border: solid 4px white;
     border-radius: 15px;
+}
+
+
+@media (max-width: 1200px) {
+    .gallery ul {
+    flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .gallery ul li {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.gallery ul li a img {
+    max-width: 100%;
+}
+}
+
+@media (max-width: 600px) {
+    .gallery {
+    margin: auto;
+}
 }

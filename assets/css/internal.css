@@ -5,96 +5,90 @@
 @import url(/assets/css/link-button.css);
 @import url(/assets/css/gallery.css);
 
+/* Main Content */
+body {
+    overflow-x: hidden;
+}
+
 .s-wrapper {
     display: flex;
     width: 100vw;
-    height: 100vh;
-    flex-flow: row nowrap;
 }
 
 .s-wrapper video {
     position: fixed;
     min-width: 100vw;
     min-height: 100vh;
-    background-image: url(/assets/images/spiderman-tobey/movie-01/background.png);
+    background-image: url(/assets/images/spiderman-homepage/spider-man-background\ 1.jpg);
+    background-position: no-repeat;
+    background-size: cover;
 }
 
-.s-wrapper .s-left-column {
-    width: 100px;
-    padding: 3rem;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    padding-right: 50px;
-    left: 0;
-    top: 0;
-    z-index: 1;
-}
 
-.s-nav__button:hover,
-.s-nav__button.active {
-    background-color: white;
-    color: var(--primary-color);
-    transform: scale(1.1);
-    border: 1px solid var(--primary-color);
-    outline: 1px solid white;
-}
-
-.s-nav__line {
-    position: absolute;
-    top: 0;
-    width: 2px;
-    height: 100%;
-    background-color: white;
-    z-index: 0;
-}
-
-.s-nav__icon {
-    position: absolute;
-    top: -20px;
-}
-
-/* Main Content */
-
-.s-wrapper .s-main-content {
-    height: 100%;
+.s-wrapper .s-main-content .s-main-content__container {
     position: relative;
     left: 6rem;
-    max-width: min-content;
-}
-
-.s-wrapper .s-main-content__container {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 72vw;
+}
+
+.s-wrapper .s-main-content__info-container {
+    max-width: 60vw;
 }
 
 .s-wrapper .s-main-content .s-logo img {
-    margin: 2rem 0;
+    margin: 1rem auto;
+    max-width: 120%;
 }
 
-.s-wrapper .s-main-content__container .s-description {
+.s-wrapper .s-main-content__info-container .s-description {
     background-color: rgba(0, 0, 0, .7);
-    max-width: 60%;
+    width: 100%;
     padding: 20px;
     border-radius: 10px;
 }
 
 .s-wrapper .s-main-content__container .s-description .s-description__text p {
+    text-align: justify;
     color: white;
     line-height: 170%;
 }
 
-.s-wrapper .s-main-content .s-links {
-    margin: 10px 0;
+@media (max-width: 1200px) {
+.s-wrapper .s-main-content__container, .s-wrapper .s-main-content__info-container {
+    max-width: 80vw;
 }
 
-.s-wrapper .s-main-content .s-links ul {
-    display: flex;
-    flex-direction: row;
+.s-wrapper .s-main-content__info-container,.s-wrapper .s-main-content .s-logo img {
+    width: 80vw;
+}
 }
 
+@media (max-width: 600px) {
+    .s-wrapper .s-main-content .s-main-content__container {
+    left: 3.5rem;
+    width: 100vw;
+}
 
+.s-wrapper .s-main-content__info-container .s-description {
+    padding: 8px;
+    width: 80vw;
+}
+}
+
+@media (max-width: 400px) {
+body {
+    overflow-x: hidden;
+}
+
+.s-wrapper .s-main-content__info-container,.s-wrapper .s-main-content .s-logo img {
+    width: 70vw;
+}
+
+.s-wrapper .s-main-content__info-container .s-description {
+    padding: 5px;
+    width: 95%;
+}
+}
