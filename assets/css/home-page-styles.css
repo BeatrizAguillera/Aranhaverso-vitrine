@@ -1,9 +1,9 @@
-@import url(assets/css/global.css);
-@import url(assets/css/reset.css);
+@import url(global.css);
+@import url(reset.css);
 
 body::before {
     content: "";
-    background-image: url(assets/images/spiderman-homepage/spider-man-background.jpg);
+    background-image: url(../images/spiderman-homepage/spider-man-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-clip: cover;
@@ -172,15 +172,6 @@ body {
     transform: rotate(90deg);
 }
 
-/* .s-controller__icon {
-    width: 2rem;
-    margin: 0 1rem;
-    vertical-align: middle;
-    position: relative;
-    left: 3rem;
-    right: 3rem;
-} */
-
 /* Hover Animation */
 
 .s-card--hovered .s-card__background {
@@ -194,15 +185,15 @@ body {
 }
 
 body#spider-man-01-hovered::before {
-    background-image: url(/assets/images/spiderman-homepage/pic-sm-bg-01.jpg);
+    background-image: url(../assets/images/spiderman-homepage/pic-sm-bg-01.jpg);
 }
 
 body#spider-man-02-hovered::before {
-    background-image: url(/assets/images/spiderman-homepage/pic-sm-bg-02.jpg);
+    background-image: url(../assets/images/spiderman-homepage/pic-sm-bg-02.jpg);
 }
 
 body#spider-man-03-hovered::before {
-    background-image: url(/assets/images/spiderman-homepage/pic-sm-bg-03.jpg);
+    background-image: url(../assets/images/spiderman-homepage/pic-sm-bg-03.jpg);
 }
 
 body[id^="spider-man-"]::before {
