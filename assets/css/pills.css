@@ -4,7 +4,9 @@
 
 .pills ul {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .pills ul li {
@@ -13,9 +15,16 @@
     padding: 5px 15px;
     border-radius: 20px;
     text-transform: uppercase;
-    margin: 0 10px;
+    margin: 5px 8px;
 }
 
-.pills ul li:first-child {
-    margin-left: 0;
+/* .pills ul li:first-child {
+    /* margin-left: 0; */
+
+@media (max-width: 600px) {
+.pills ul li {
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin: 8px;
+}
 }

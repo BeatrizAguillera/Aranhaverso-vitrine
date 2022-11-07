@@ -223,4 +223,66 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
     width: calc(100vw / 3 - 10%);
     transform-style: preserve-3d;
     transition: transform 0.4s ease-in;
+<<<<<<< Updated upstream
+=======
+}
+
+@media (max-width: 1180px) {
+.s-card {
+    width: 22rem;
+    height: 70vh;
+}
+
+.s-card--hovered .s-card__image {
+    transform: scale(1.2);
+    filter: drop-shadow(30px 8px 4px rgba(0, 0, 0, .5));
+}
+}
+
+@media (max-width: 800px) {
+.s-card {
+    width: 18rem;
+    height: 70vh;
+}
+
+.s-menu__item {
+    margin: 0.2rem 0.8rem;
+}
+}
+
+@media (max-width: 600px) {
+.s-menu {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.s-menu__item:first-child {
+    margin: 5px auto;
+    display: block;
+}
+
+.s-container {
+    perspective: 5000px;
+}
+
+.s-card {
+    border: 0.2rem solid white;
+    width: 14rem;
+    height: 65vh;
+}
+
+.s-controller {
+    bottom: 0.2rem;
+    height: 4rem;
+    width: 100%;
+}
+
+.s-controller__button:nth-child(2) {
+    margin: 0 2.25rem;
+}
+
+.s-controller__line {
+    width: 70%;
+}
+>>>>>>> Stashed changes
 }

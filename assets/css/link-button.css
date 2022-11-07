@@ -1,14 +1,33 @@
+.s-wrapper .s-main-content .s-links {
+    margin: 10px 0;
+}
+
+.s-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 a.link-button {
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.s-links ul li:nth-child(2) {
+    margin: 5px 1.25rem;
 }
 
 a.link-button .icon {
-    width: 32px;
-    height: 32px;
-    padding: 3px;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
     background-color: var(--primary-color);
     border: solid 1px white;
     background-clip: content-box;
@@ -19,17 +38,28 @@ a.link-button .icon {
     justify-content: center;
 }
 
-a.link-button .icon .play-icon {
-    border: solid 7px white;
-    width: 0px;
-    height: 0px;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    margin-right: -7px;
-
-}
-
 a.link-button .label {
     margin-left: 10px;
+}
+
+a.link-button:hover {
+    background-color: rgba(000, 000, 000, 0.8);
+    color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+.s-links ul li:nth-child(2) {
+    margin: 10px 0;
+}
+
+.s-links ul li {
+    margin-right: 1rem;
+}
+}
+
+@media (max-width: 600px) {
+.s-links ul li:nth-child(2) {
+    margin: 10px 0;
+}
 }
