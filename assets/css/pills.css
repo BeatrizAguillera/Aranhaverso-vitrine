@@ -18,9 +18,6 @@
     margin: 5px 8px;
 }
 
-/* .pills ul li:first-child {
-    /* margin-left: 0; */
-
 @media (max-width: 600px) {
 .pills ul li {
     padding: 3px 10px;
