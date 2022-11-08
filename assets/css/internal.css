@@ -1,9 +1,9 @@
-@import url(../assets/css/global.css);
-@import url(../assets/css/reset.css);
-@import url(../assets/css/navigator.css);
-@import url(../assets/css/pills.css);
-@import url(../assets/css/link-button.css);
-@import url(../assets/css/gallery.css);
+@import url(global.css);
+@import url(reset.css);
+@import url(navigator.css);
+@import url(pills.css);
+@import url(link-button.css);
+@import url(gallery.css);
 
 /* Main Content */
 body {
