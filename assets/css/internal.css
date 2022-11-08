@@ -1,9 +1,9 @@
-@import url(/assets/css/global.css);
-@import url(/assets/css/reset.css);
-@import url(/assets/css/navigator.css);
-@import url(/assets/css/pills.css);
-@import url(/assets/css/link-button.css);
-@import url(/assets/css/gallery.css);
+@import url(../assets/css/global.css);
+@import url(../assets/css/reset.css);
+@import url(../assets/css/navigator.css);
+@import url(../assets/css/pills.css);
+@import url(../assets/css/link-button.css);
+@import url(../assets/css/gallery.css);
 
 /* Main Content */
 body {
@@ -19,7 +19,7 @@ body {
     position: fixed;
     min-width: 100vw;
     min-height: 100vh;
-    background-image: url(/assets/images/spiderman-homepage/spider-man-background\ 1.jpg);
+    background-image: url(../assets/images/spiderman-homepage/spider-man-background\ 1.jpg);
     background-position: no-repeat;
     background-size: cover;
 }
