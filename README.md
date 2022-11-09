@@ -74,10 +74,10 @@
 🇺🇸
 
 #### Summary:
-1. To make a responsive website, even with such a delicated design patterns
-2. To code from code archtected by other's
-3. To build a carousel with an array and the index of the necessary elements
-4. To use a video as the page background
+1. Make a responsive website, even with such a delicated design patterns
+2. Code from code archtected by others
+3. Build a carousel with an array and the index of the necessary elements
+4. Use a video as the page background
 
 #### Points of view:
 1. The DIO's original design was not responsive. I took this task as a personal challenge to make the site even more dynamic.
@@ -105,10 +105,10 @@
 
 What I want t refine more in upcoming projects:
 
-- To improve my knowledge about positions and CSS Grid to complement Flexbox
-- To become even more familiar with JavaScript (Spoiler: the next project will already use Vue.js!!)
-- To become an expert in prioritizing inside the project: which ideas to keep and which to discard and why?
-- To make the use of Git and GitHub mandatory and more constant: commit and push each phase to avoid losses.
+- Improve my knowledge about positions and CSS Grid to complement Flexbox
+- Become even more familiar with JavaScript (Spoiler: the next project will already use Vue.js!!)
+- Become an expert in prioritizing inside the project: which ideas to keep and which to discard and why?
+- Make the use of Git and GitHub mandatory and more constant: commit and push each phase to avoid losses.
 
 ## Acknowledgments
 
