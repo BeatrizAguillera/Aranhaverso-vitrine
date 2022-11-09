@@ -33,7 +33,7 @@
 
 ### Links
 
-- Live Site URL: [Spiderverse](https://beatrizaguillera.github.io/Aranhaverso-vitrine/)
+- Live Site URL: [Spiderverse](https://beatrizaguillera.github.io/Spiderverse-website/)
 
 ## My process
 
