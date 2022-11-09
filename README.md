@@ -7,17 +7,19 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The challenge / O desafio](#the-challenge)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Acknowledgments](#acknowledgments)
+- [My process / Meu processo](#my-process)
+  - [Built with / Construído com](#built-with)
+  - [What I learned / O que eu aprendi](#what-i-learned)
+  - [Continued development / Próximos passos](#continued-development)
+- [Acknowledgments / Agradecimentos](#acknowledgments)
 
 ## Overview
 
 ### The challenge
+
+**O desafio**
 
 🇧🇷 Os usuários devem ser capazes de:
 
@@ -33,11 +35,13 @@
 
 ### Links
 
-- Live Site URL: [Spiderverse](https://beatrizaguillera.github.io/Spiderverse-website/)
+- Live Site URL: [Spiderverse website](https://beatrizaguillera.github.io/Spiderverse-website/)
 
 ## My process
 
 ### Built with
+
+**Construído com**
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -47,6 +51,8 @@
 - [Fontawesome](https://fontawesome.com) - For some icons
 
 ### What I learned
+
+**O que eu aprendi**
 
 🇧🇷 
 
@@ -84,6 +90,8 @@
 
 ### Continued development
 
+**Próximos passos**
+
 🇧🇷 
 
 Áreas que eu quero refinar mais nos próximos projetos:
@@ -103,6 +111,8 @@ What I want t refine more in upcoming projects:
 - To make the use of Git and GitHub mandatory and more constant: commit and push each phase to avoid losses.
 
 ## Acknowledgments
+
+**Agradecimentos**
 
 🇧🇷 
 
