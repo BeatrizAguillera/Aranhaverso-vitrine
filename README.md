@@ -1,4 +1,4 @@
-# Spiderverse website solution - DIO 
+# Spiderverse website - DIO 
 
 🇧🇷 Essa é a minha versão do Aranhaverso criado por uma live coding da [DIO](https://www.dio.me). A DIO é uma plataforma que ajuda os estudantes de programação a melhorar suas habilidades por meio de cursos gratuitos, lives, entrevistas, projetos realistas e muito mais. 
 
